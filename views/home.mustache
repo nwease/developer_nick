@@ -54,8 +54,8 @@
                     <div class="arlo_tm_about_wrapper_all">
                         <div class="container">
                             <div class="arlo_tm_title_holder">
-                                <h3>About Me</h3>
-<!--                                <span>about me</span>-->
+                                <h3>{{page.section1.header}}</h3>
+                                <span>{{page.section1.subheader}}</span>
                             </div>
 
                             <div class="arlo_tm_about_wrap">
@@ -64,7 +64,7 @@
                                         <div class="about_image_wrap parallax" data-relative-input="true">
                                             <div class="image layer" data-depth="0.1">
                                                 <img src="img/about/550x640.jpg" alt="" />
-                                                <div class="inner" data-img-url="img/about/1.jpg"></div>
+                                                <div class="inner" data-img-url="{{page.section1.portrait_image}}"></div>
                                             </div>
 
                                             <div class="border layer" data-depth="0.2">
@@ -76,11 +76,11 @@
 
                                     <div class="rightbox">
                                         <div class="arlo_tm_mini_title_holder">
-                                            <h4>I'm Nicholas Wease and <span class="arlo_tm_animation_text_word"></span></h4>
+                                            <h4>{{page.section1.greeting}} <span class="arlo_tm_animation_text_word"></span></h4>
                                         </div>
 
                                         <div class="definition">
-                                            <p>Hi! My name is <strong>Nicholas Wease</strong>. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+                                            <p>{{page.section1.bio}}</p>
                                         </div>
 
                                         <div class="about_short_contact_wrap">
@@ -130,11 +130,11 @@
                                         <div class="buttons_wrap">
                                             <ul>
                                                 <li>
-                                                    <a href="index.html"><span>Download CV</span></a>
+                                                    <a target="_blank" href="{{page.section1.cv.url}}"><span>{{page.section1.cv.button1}}</span></a>
                                                 </li>
 
                                                 <li class="anchor">
-                                                    <a href="#contact"><span>Send Message</span></a>
+                                                    <a href="#contact"><span>{{page.section1.cv.button2}}</span></a>
                                                 </li>
                                             </ul>
                                         </div>
