@@ -1,6 +1,8 @@
 {
   "profile": {
     "firstName": "Nicholas",
-    "lastName": "Wease"
+    "lastName": "Wease",
+    "caption": "I am a Front End Web Developer",
+    "avatar": "https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p160x160/13332796_10208268034891067_9105836003082283038_n.jpg?_nc_cat=107&_nc_ht=scontent-ams3-1.xx&oh=e4e991701a2d5c874c5d9d557d79bbc4&oe=5D43B20A"
   }
 }
