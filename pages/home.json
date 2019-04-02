@@ -1,1 +1,6 @@
-{"text": "this dynamic text is rendered from the 'home.json' file in the 'pages' directory."}
+{
+  "profile": {
+    "firstName": "Nicholas",
+    "lastName": "Wease"
+  }
+}
