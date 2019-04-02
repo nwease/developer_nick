@@ -2,7 +2,7 @@
 <div class="arlo_tm_leftpart_wrap">
     <div class="leftpart_inner">
         <div class="logo_wrap">
-            <a href="#"><img src="img/logo/desktop-logo.png" alt="" /></a>
+            <a href="#"><img src="{{global.logo}}" alt="logo" /></a>
         </div>
 
         <div class="menu_list_wrap">
@@ -19,11 +19,21 @@
         <div class="leftpart_bottom">
             <div class="social_wrap">
                 <ul>
-                    <li><a href="#"><i class="xcon-facebook"></i></a></li>
-                    <li><a href="#"><i class="xcon-twitter"></i></a></li>
-                    <li><a href="#"><i class="xcon-linkedin"></i></a></li>
-                    <li><a href="#"><i class="xcon-instagram"></i></a></li>
-                    <li><a href="#"><i class="xcon-behance"></i></a></li>
+                    {{#global.social.facebook.visible}}
+                        <li><a target="_blank" href="{{global.social.facebook.url}}"><i class="xcon-{{global.social.facebook.icon}}"></i></a></li>
+                    {{/global.social.facebook.visible}}
+
+                    {{#global.social.facebook.visible}}
+                        <li><a target="_blank" href="{{global.social.twitter.url}}"><i class="xcon-{{global.social.twitter.icon}}"></i></a></li>
+                    {{/global.social.facebook.visible}}
+
+                    {{#global.social.facebook.visible}}
+                        <li><a target="_blank" href="{{global.social.linkedin.url}}"><i class="xcon-{{global.social.linkedin.icon}}"></i></a></li>
+                    {{/global.social.facebook.visible}}
+
+                    {{#global.social.facebook.visible}}
+                        <li><a target="_blank" href="{{global.social.instagram.url}}"><i class="xcon-{{global.social.instagram.icon}}"></i></a></li>
+                    {{/global.social.facebook.visible}}
                 </ul>
             </div>
         </div>

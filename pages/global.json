@@ -1,1 +1,26 @@
-{"key":"value"}
+{
+  "title":"Nicholas Wease",
+  "logo": "https://lh3.googleusercontent.com/L5lZr3ZVUAAVrB2-1vkFx5vfAzZthkWb_eixUt_agS8MZXa3lDUz05dw2HUwiWF0qTwLAeFI63kp6AfIKrXzERcv",
+  "social": {
+    "facebook": {
+      "visible": true,
+      "icon": "facebook",
+      "url": "https://www.facebook.com"
+    },
+    "twitter": {
+      "visible": true,
+      "icon": "twitter",
+      "url": "https://www.twitter.com"
+    },
+    "instagram": {
+      "visible": true,
+      "icon": "instagram",
+      "url": "https://www.instagram.com"
+    },
+    "linkedin": {
+      "visible": true,
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com"
+    }
+  }
+}
